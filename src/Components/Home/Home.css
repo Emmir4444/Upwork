@@ -8,9 +8,9 @@
     height: 100vh;
     display: flex;
     background-color: #fcffff;
-    align-items: center; /* 👈 Alineación vertical */
-    justify-content: center; /* 👈 Opcional si quieres centrarlos horizontalmente también */
-    gap: 40px; /* 👈 Espacio entre texto e imagen */
+    align-items: center;
+    justify-content: center;
+    gap: 40px; 
     padding: 0 5%;
   }
   
