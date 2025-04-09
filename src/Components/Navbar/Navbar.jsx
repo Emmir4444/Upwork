@@ -6,7 +6,7 @@ import logo from '/images/marketplace.png'; // Asegúrate de que la ruta sea cor
 const NavbarN = () => {
   return (
     <nav className="navbar">
-      <a href="#" className="navbar__logo">Upwor</a>
+      <a href="#" className="navbar__logo">Upwork!</a>
 
       <input type="checkbox" id="navbar__toggler" className="navbar__checkbox" />
       <label htmlFor="navbar__toggler" className="navbar__hamburger">
@@ -16,9 +16,9 @@ const NavbarN = () => {
       <div className="navbar__menu">
         <ul className="navbar__list">
           <li className="navbar__item"><a href="/" className="navbar__link">Home</a></li>
-          <li className="navbar__item"><a href="/about" className="navbar__link">About</a></li>
-          <li className="navbar__item"><a href="/contact" className="navbar__link">Contact</a></li>
-          <li className="navbar__item"><a href="/login" className="navbar__link">Login</a></li>
+          <li className="navbar__item"><a href="/" className="navbar__link">About</a></li>
+          <li className="navbar__item"><a href="/" className="navbar__link">Contact</a></li>
+          <li className="navbar__item"><a href="/" className="navbar__link">Login</a></li>
         </ul>
       </div>
     </nav>
