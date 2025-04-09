@@ -101,6 +101,7 @@
         padding-left: 0;
         border: none;
         margin: 10px;
+        margin-left: -5px;
     }
     .home__main__container__image{
         width: 100%;
