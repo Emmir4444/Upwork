@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import './App.css';
 import NavbarN from './Components/Navbar/Navbar.jsx';
 import Footer from './Components/Footer/Footer.jsx';
@@ -18,6 +18,7 @@ const HomePage = () => {
 
 function App() {
   return (
+
     <Router>
       <NavbarN />
      
