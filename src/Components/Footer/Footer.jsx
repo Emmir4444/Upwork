@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'; // Iconos de Font Awesome
-// O si prefieres iconos de Devicons:
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'; 
 import { DiGithubBadge } from 'react-icons/di';
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__section footer__section--about">
-          <h2 className="footer__title">UpWor</h2>
+          <h2 className="footer__title">UpWork</h2>
           <p className="footer__text">Conectate con miles de empresas y personas alrededor del mundo</p>
         </div>
 
@@ -27,18 +26,17 @@ const Footer = () => {
           <h3 className="footer__subtitle">Síguenos</h3>
           <div className="footer__social-icons">
             <a href="#" className="footer__icon">
-              <FaFacebook size={24} /> {/* Icono de Facebook */}
+              <FaFacebook size={24} />
             </a>
             <a href="#" className="footer__icon">
-              <FaTwitter size={24} /> {/* Icono de Twitter */}
+              <FaTwitter size={24} />
             </a>
             <a href="#" className="footer__icon">
-              <FaInstagram size={24} /> {/* Icono de Instagram */}
+              <FaInstagram size={24} /> 
             </a>
             <a href="#" className="footer__icon">
-              <FaLinkedin size={24} /> {/* Icono de LinkedIn */}
+              <FaLinkedin size={24} />
             </a>
-            {/* Si quisieras usar un icono de GitHub de Devicons: */}
             <a href="#" className="footer__icon" style={{ marginTop: '-5px' }}>
   <DiGithubBadge size={34} />
 </a>

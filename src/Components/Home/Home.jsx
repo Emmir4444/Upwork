@@ -30,7 +30,7 @@ const Home = () => {
       className={`home__main__container ${isVisible ? 'home__main__container--animated' : ''}`}
     >
       <div className="home__main__container__text">
-        <h1 className="home__main__container__text__title">Bienvenido a UpWor</h1>
+        <h1 className="home__main__container__text__title">Bienvenido a UpWork</h1>
         <p className="home__main__container__text__description">
           Conéctate con miles de empresas y personas alrededor del mundo
         </p>
