@@ -12,6 +12,7 @@
     justify-content: center;
     gap: 40px; 
     padding: 0 5%;
+    text-align: center;
   }
   
   .home__main__container__text {

@@ -46,7 +46,7 @@ const Footer = () => {
 
       <div className="footer__bottom">
         <p className="footer__copyright">
-          &copy; {new Date().getFullYear()} Upwor. Todos los derechos reservados.
+          &copy; {new Date().getFullYear()} Upwork. Todos los derechos reservados.
         </p>
       </div>
     </footer>
